@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
-"scripts": {
+  "scripts": {
     "dev": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css --watch",
-    "build": "node node_modules/@tailwindcss/cli/dist/index.js -i ./src/input.css -o ./dist/output.css"
+    "build": "npx @tailwindcss/cli -i ./src/input.css -o ./dist/output.css"
   },
   "keywords": [],
   "author": "",
