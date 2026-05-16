@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>EmiSoft - Produkty cyfrowe, które działają i wyglądają nowocześnie</title>
+  <meta name="description" content="EmiSoft tworzy nowoczesne aplikacje webowe, mobilne i systemy wewnętrzne. Projektujemy, wdrażamy i rozwijamy produkty cyfrowe dla firm." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="./dist/output.css" />
+</head>
+
+<body class="site-shell home-page">
+<header class="site-header">
+  <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8">
+    <div class="flex items-center justify-between h-18 min-h-[4.5rem]">
+      <a href="index.html" class="flex items-center gap-3 group">
+        <div class="brand-mark w-11 h-11 rounded-2xl flex items-center justify-center"><span class="text-white font-bold text-base leading-none" style="font-family:var(--font-display)">E</span></div>
+        <div><span class="block font-bold text-lg tracking-tight" style="font-family:var(--font-display);color:var(--color-dark)">EmiSoft</span><span class="block text-[11px] uppercase tracking-[0.24em]" style="color:var(--color-gray-mid)">Digital Build Studio</span></div>
+      </a>
+      <nav class="hidden md:flex items-center gap-7">
+        <a href="o-nas.html" class="nav-link text-sm font-medium transition-colors">O nas</a>
+        <a href="uslugi.html" class="nav-link text-sm font-medium transition-colors">Usługi</a>
+        <a href="portfolio.html" class="nav-link text-sm font-medium transition-colors">Portfolio</a>
+        <a href="faq.html" class="nav-link text-sm font-medium transition-colors">FAQ</a>
+        <a href="kontakt.html" class="nav-link text-sm font-medium transition-colors">Kontakt</a>
+        <a href="kontakt.html" class="btn-primary !text-sm !py-2 !px-4">Umów rozmowę</a>
+      </nav>
+      <button id="menu-btn" aria-label="Otwórz menu" aria-expanded="false" aria-controls="mobile-menu" class="md:hidden p-2 rounded-2xl bg-white/80 border border-white/70 shadow-sm transition-colors focus:outline-none">
+        <svg id="icon-open" class="w-6 h-6" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M4 6h16M4 12h16M4 18h16"/></svg>
+        <svg id="icon-close" class="w-6 h-6 hidden" fill="none" viewBox="0 0 24 24" stroke="currentColor" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M6 18L18 6M6 6l12 12"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="mobile-menu" class="menu-panel hidden md:hidden border-t border-white/60">
+    <nav class="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-2">
+      <a href="o-nas.html" class="px-3 py-2.5 rounded-2xl text-sm font-medium hover:bg-white/70 transition-colors" style="color:var(--color-dark)">O nas</a>
+      <a href="uslugi.html" class="px-3 py-2.5 rounded-2xl text-sm font-medium hover:bg-white/70 transition-colors" style="color:var(--color-dark)">Usługi</a>
+      <a href="portfolio.html" class="px-3 py-2.5 rounded-2xl text-sm font-medium hover:bg-white/70 transition-colors" style="color:var(--color-dark)">Portfolio</a>
+      <a href="faq.html" class="px-3 py-2.5 rounded-2xl text-sm font-medium hover:bg-white/70 transition-colors" style="color:var(--color-dark)">FAQ</a>
+      <a href="kontakt.html" class="px-3 py-2.5 rounded-2xl text-sm font-medium hover:bg-white/70 transition-colors" style="color:var(--color-dark)">Kontakt</a>
+      <a href="kontakt.html" class="mt-2 btn-primary w-full text-sm text-center">Porozmawiajmy o projekcie</a>
+    </nav>
+  </div>
+</header>
+<main>
+  <section class="home-hero px-4 sm:px-6 lg:px-8">
+    <div class="max-w-6xl mx-auto">
+      <div class="hero-grid" style="grid-template-columns: 1fr !important;">
+        <div class="hero-copy">
+          <h1 class="mt-6 animate-fade-up-2">Budujemy produkty cyfrowe, <span class="hero-accent">które wyglądają pewnie</span> i działają jeszcze lepiej.</h1>
+          <p class="mt-6 animate-fade-up-3">Od pierwszej strategii po wdrożenie i rozwój. Projektujemy doświadczenia, które pomagają firmom sprzedawać, automatyzować procesy i spokojnie skalować biznes.</p>
+          <div class="mt-8 flex flex-col sm:flex-row gap-3 animate-fade-up-4">
+            <a href="kontakt.html" class="btn-primary">Porozmawiajmy o projekcie</a>
+            <a href="portfolio.html" class="btn-outline">Zobacz nasze realizacje</a>
+          </div>
+        </div>
+        <aside class="hero-panel glass-card animate-fade-up-4" style="max-width:640px;">
+          <div class="hero-badge">Dostarczenie MVP nawet w 6-8 tygodni</div>
+          <h3 class="mt-5">Zespół, który łączy design, development i biznes.</h3>
+          <p class="mt-3">Nie robimy stron „jak wszystkie”. Tworzymy interfejsy z charakterem i proces wdrożeniowy, w którym zawsze wiesz, co dzieje się dalej.</p>
+          <div class="mt-6 space-y-3">
+            <div class="timeline-card"><p class="text-xs uppercase tracking-[0.2em]" style="color:var(--color-primary-dark);font-weight:800">01 Strategia</p><p class="mt-1 text-sm">Warsztat, priorytety i mapa funkcji dopasowana do celu biznesowego.</p></div>
+            <div class="timeline-card"><p class="text-xs uppercase tracking-[0.2em]" style="color:var(--color-primary-dark);font-weight:800">02 Projektowanie</p><p class="mt-1 text-sm">Mocny kierunek wizualny, UX bez tarcia i spójna warstwa marki.</p></div>
+            <div class="timeline-card"><p class="text-xs uppercase tracking-[0.2em]" style="color:var(--color-primary-dark);font-weight:800">03 Rozwój</p><p class="mt-1 text-sm">Sprinty, demo, wdrożenie i dalszy rozwój bez chaosu po starcie.</p></div>
+          </div>
+        </aside>
+      </div>
+      <div class="metric-grid animate-fade-up-4">
+        <div class="metric-card"><div class="metric-value">50<span>+</span></div><p class="metric-label">Projektów</p></div>
+        <div class="metric-card"><div class="metric-value">8<span>+</span></div><p class="metric-label">Lat doświadczenia</p></div>
+        <div class="metric-card"><div class="metric-value">30<span>+</span></div><p class="metric-label">Stałych klientów</p></div>
+        <div class="metric-card"><div class="metric-value">98<span>%</span></div><p class="metric-label">Pozytywnych rekomendacji</p></div>
+      </div>
+      <div class="mt-18">
+        <div class="flex items-end justify-between gap-6 flex-wrap mb-6">
+          <div><h2 class="mt-4">Sprawdź, jak możemy Ci pomóc.</h2></div>
+          <p class="max-w-xl text-sm sm:text-base">Każda podstrona rozwija inny fragment naszej oferty: od procesu pracy po wybrane realizacje i kontakt.</p>
+        </div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
+          <a href="o-nas.html" class="feature-nav-card"><div class="feature-icon"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><h4>O nas</h4><p class="text-sm mt-2">Poznaj styl pracy, wartości i sposób prowadzenia projektów.</p></a>
+          <a href="uslugi.html" class="feature-nav-card"><div class="feature-icon"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z"/><path stroke-linecap="round" stroke-linejoin="round" d="M15 12a3 3 0 11-6 0 3 3 0 016 0z"/></svg></div><h4>Usługi</h4><p class="text-sm mt-2">Web, mobile, systemy wewnętrzne i wsparcie rozwoju produktu.</p></a>
+          <a href="portfolio.html" class="feature-nav-card"><div class="feature-icon"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M4 16l4.586-4.586a2 2 0 012.828 0L16 16m-2-2l1.586-1.586a2 2 0 012.828 0L20 14m-6-6h.01M6 20h12a2 2 0 002-2V6a2 2 0 00-2-2H6a2 2 0 00-2 2v12a2 2 0 002 2z"/></svg></div><h4>Portfolio</h4><p class="text-sm mt-2">Zobacz realizacje i klimat projektów, które dowozimy.</p></a>
+          <a href="kontakt.html" class="feature-nav-card"><div class="feature-icon"><svg class="w-5 h-5" fill="none" stroke="currentColor" stroke-width="1.8" viewBox="0 0 24 24"><path stroke-linecap="round" stroke-linejoin="round" d="M3 8l7.89 5.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z"/></svg></div><h4>Kontakt</h4><p class="text-sm mt-2">Opowiedz o projekcie, a wrócimy z konkretnym kolejnym krokiem.</p></a>
+        </div>
+      </div>
+      <div class="cta-band mt-18 flex flex-col lg:flex-row items-start lg:items-center justify-between gap-6">
+        <div class="max-w-2xl"><h3 class="mt-4 text-white">Masz pomysł, backlog albo projekt wymagający odświeżenia?</h3><p class="mt-3 text-sm sm:text-base" style="color:rgba(255,255,255,0.78)">Wejdziemy tam, gdzie trzeba: od analizy i UX po development, wdrożenie i spokojne utrzymanie po starcie.</p></div>
+        <a href="kontakt.html" class="btn-secondary shrink-0">Umów konsultację</a>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer px-4 sm:px-6 lg:px-8">
+  <div class="max-w-6xl mx-auto footer-panel">
+    <div class="grid grid-cols-1 lg:grid-cols-[1.2fr_0.8fr_0.8fr] gap-8 mb-8">
+      <div><a href="index.html" class="flex items-center gap-3 mb-4"><div class="brand-mark w-10 h-10 rounded-2xl flex items-center justify-center"><span class="text-white font-bold text-sm" style="font-family:var(--font-display)">E</span></div><span class="font-bold text-white text-base" style="font-family:var(--font-display)">EmiSoft</span></a><p class="max-w-md text-sm" style="color:rgba(255,255,255,0.62)">Projektujemy i budujemy dopracowane produkty cyfrowe: aplikacje webowe, mobilne i systemy wewnętrzne, które pomagają firmom rosnąć spokojniej i szybciej.</p></div>
+      <div><p class="text-xs font-semibold uppercase tracking-[0.22em] mb-4" style="color:rgba(255,255,255,0.38)">Nawigacja</p><ul class="space-y-3 text-sm" style="color:rgba(255,255,255,0.72)"><li><a href="o-nas.html" class="hover:text-white transition-colors">O nas</a></li><li><a href="uslugi.html" class="hover:text-white transition-colors">Usługi</a></li><li><a href="portfolio.html" class="hover:text-white transition-colors">Portfolio</a></li><li><a href="faq.html" class="hover:text-white transition-colors">FAQ</a></li><li><a href="kontakt.html" class="hover:text-white transition-colors">Kontakt</a></li></ul></div>
+      <div><p class="text-xs font-semibold uppercase tracking-[0.22em] mb-4" style="color:rgba(255,255,255,0.38)">Kontakt</p><ul class="space-y-3 text-sm" style="color:rgba(255,255,255,0.72)"><li><a href="mailto:kontakt@emisoft.pl" class="hover:text-white transition-colors">kontakt@emisoft.pl</a></li><li><a href="tel:+48123456789" class="hover:text-white transition-colors">+48 123 456 789</a></li><li>ul. Złota 59, Warszawa</li></ul></div>
+    </div>
+    <div class="border-t pt-6 flex flex-col sm:flex-row items-center justify-between gap-3 text-xs" style="border-color:rgba(255,255,255,0.08);color:rgba(255,255,255,0.38)"><p>© <span id="year"></span> EmiSoft. Wszelkie prawa zastrzeżone.</p><p>Strategia, design, development, utrzymanie</p></div>
+  </div>
+</footer>
+<script>
+  document.getElementById('year').textContent = new Date().getFullYear();
+  const btn = document.getElementById('menu-btn');
+  const menu = document.getElementById('mobile-menu');
+  const iconOpen = document.getElementById('icon-open');
+  const iconClose = document.getElementById('icon-close');
+  btn?.addEventListener('click', () => {
+    const isOpen = !menu.classList.contains('hidden');
+    menu.classList.toggle('hidden');
+    iconOpen.classList.toggle('hidden', !isOpen);
+    iconClose.classList.toggle('hidden', isOpen);
+    btn.setAttribute('aria-expanded', String(isOpen));
+  });
+  menu?.querySelectorAll('a').forEach((link) => {
+    link.addEventListener('click', () => {
+      menu.classList.add('hidden');
+      iconOpen.classList.remove('hidden');
+      iconClose.classList.add('hidden');
+      btn.setAttribute('aria-expanded', 'false');
+    });
+  });
+</script>
+</body>
+</html>
+
+
+
